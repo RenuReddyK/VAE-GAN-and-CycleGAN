@@ -25,4 +25,11 @@ GAN Generated Images at epoch 60 | GAN Generated Images at epoch 75 | GAN Genera
 
 ## CycleGAN:
 Implemented CycleGAN for image-to-image translation without paired training images. Used Edges2shoes dataset. Network architecture follows the research paper, featuring an encoder-decoder structure with convolution, instance normalization, and residual blocks. Reflection padding is applied to reduce artifacts. The objective includes adversarial loss for distinguishing generated images and cycle consistency losses to ensure mapping consistency. Training involves two generators (G: X → Y, F: Y → X) and discriminators (DY, DX). Code was developed from scratch, adhering to the specified architecture and methodology outlined in the paper.
+<p align="center">
+<img src= "https://github.com/RenuReddyK/VAE-GAN-and-CycleGAN/assets/68454938/c2b99f37-99ea-43c1-bd14-a2c35c0f9769">
+</p>
 
+# References
+[1] Diederik P Kingma and Max Welling. Auto-encoding variational bayes. arXiv preprint arXiv:1312.6114, 2013. <br>
+[2] IanGoodfellow,JeanPouget-Abadie,MehdiMirza,BingXu,DavidWarde-Farley,SherjilOzair,Aaron Courville, and Yoshua Bengio. Generative adversarial nets. In Advances in neural information pro- cessing systems, pages 2672–2680, 2014. <br>
+[3] Jun-Yan Zhu, Taesung Park, Phillip Isola, and Alexei A Efros. Unpaired image-to-image translation using cycle-consistent adversarial networks. In Proceedings of the IEEE international conference on computer vision, pages 2223–2232, 2017.
